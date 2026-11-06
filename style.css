@@ -42,3 +42,20 @@ a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2
 .site-footer p { margin: 0 0 0.4em; }
 .site-footer a { display: inline-block; padding: 6px 0; }
 .notice { padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; color: var(--text-2); }
+/* tanıtım */
+:root { --card: #FFFFFF; --accent: #2563EB; --accent-2: #8B5CF6; }
+@media (prefers-color-scheme: dark) { :root { --card: #121823; --accent: #6EA0FF; --accent-2: #B49BFF; } }
+.hero { text-align: center; padding: 8px 0 4px; }
+.app-icon { display: block; margin: 8px auto 14px; width: 112px; height: 112px; border-radius: 25px; box-shadow: 0 6px 24px rgba(37, 99, 235, 0.28); }
+.hero h1 { font-size: 2.3rem; margin: 0; letter-spacing: -0.01em; }
+.tagline { margin: 2px 0 14px; color: var(--text-2); font-size: 1.1rem; font-weight: 600; }
+.lead { font-size: 1.12rem; max-width: 34em; margin: 0 auto 12px; }
+.soon { display: inline-block; margin: 4px 0 8px; padding: 6px 14px; border: 1px solid var(--border); border-radius: 999px; color: var(--text-2); font-size: 0.92rem; }
+.privacy { margin: 28px 0 8px; padding: 18px 20px; border-radius: 16px; background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 14%, var(--card)), color-mix(in srgb, var(--accent-2) 14%, var(--card))); border: 1px solid var(--border); }
+.privacy h2 { margin: 0 0 6px; padding: 0; border: 0; font-size: 1.2rem; }
+.privacy p { margin: 0; }
+.cards { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 20px 0 8px; }
+@media (min-width: 600px) { .cards { grid-template-columns: 1fr 1fr; } }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px 4px; }
+.card h3 { margin: 0 0 6px; font-size: 1.05rem; color: var(--accent); }
+.card p { margin: 0 0 10px; font-size: 0.97rem; }
