@@ -38,3 +38,7 @@ a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2
 .links { font-size: 1.1rem; }
 .email { font-size: 1.15rem; font-weight: 600; }
 .footer { margin-top: 2.5em; padding-top: 1em; border-top: 1px solid var(--border); color: var(--text-2); font-size: 0.95rem; }
+.site-footer { margin-top: 2.5em; padding-top: 1em; border-top: 1px solid var(--border); color: var(--text-2); font-size: 0.9rem; }
+.site-footer p { margin: 0 0 0.4em; }
+.site-footer a { display: inline-block; padding: 6px 0; }
+.notice { padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; color: var(--text-2); }
